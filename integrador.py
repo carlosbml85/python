@@ -20,8 +20,6 @@ def maximo(lista):
 def menu(lista):
     menuOpcion = 0
     while menuOpcion != 5:
-        print("La lista cargada es:")
-        print(lista)
         menuOpcion = (int(input("Ingrese el valor de que operación quiere realizar: \n 1-Sumar \n 2-Calcular Promedio \n 3-Calcular Máximo \n 4-Calcular Minimo \n 5-Salir  \n tipee uno de los valores:" + "\n")))
         if menuOpcion == 1:
             suma(lista)
