@@ -8,6 +8,7 @@ def cargarlista():
                 lista.append(valor)
                 i += 1
 
+#funcion fara
 def suma(lista):
         suma1 = 0
         for elem in lista:
