@@ -8,11 +8,6 @@ def cargarlista():
                 lista.append(valor)
                 i += 1
 
-
-cargarlista()
-print(lista)
-    
-
 def suma(lista):
         suma1 = 0
         for elem in lista:
@@ -20,5 +15,8 @@ def suma(lista):
         print("La suma total de los valores es: " + str(suma1) + "\n") 
 
 
-suma()
+
+cargarlista()
+print(lista)
+suma(lista)
     
