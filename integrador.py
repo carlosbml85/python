@@ -20,6 +20,13 @@ def maximo(lista):
     valorMax = lista[0]
     print("El valor máximo cargado en la lista es: " + str(valorMax) + "\n")
 
+#función Oscar
+def promedio(lista):
+    suma = 0
+    for elem in lista:
+        suma += elem
+    promedioTotal = suma / len(lista)
+    print("El promedio total de los valores cargados en la lista es: " + str(promedioTotal) + "\n")
         
 
 lista = []
@@ -27,4 +34,5 @@ cargarlista()
 print(lista)
 suma(lista)
 maximo(lista)
+promedio(lista)
 
