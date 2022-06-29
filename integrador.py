@@ -1,6 +1,5 @@
 
 #funcion carlos
-lista = []
 def cargarlista():
         for i in range(5):
                 valor = int(input("Ingrese números enteros: "))
@@ -15,7 +14,7 @@ def suma(lista):
         print("La suma total de los valores es: " + str(suma1) + "\n") 
 
 
-
+lista = []
 cargarlista()
 print(lista)
 suma(lista)
