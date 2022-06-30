@@ -7,10 +7,6 @@ def suma(lista):
         print("La suma total de los valores es: " + str(suma1) + "\n") 
         
         
-#funcion Christian
-def maximo(lista):
-    valorMax = max(lista)
-    print("El valor máximo cargado en la lista es: " + str(valorMax) + "\n")
 
 #función Oscar
 def promedio(lista):
@@ -19,7 +15,20 @@ def promedio(lista):
         suma += elem
     promedioTotal = suma / len(lista)
     print("El promedio total de los valores cargados en la lista es: " + str(promedioTotal) + "\n")
+        
 
+        
+#funcion Christian
+def maximo(lista):
+    valorMax = max(lista)
+    print("El valor máximo cargado en la lista es: " + str(valorMax) + "\n")
+        
+        
+        
+#funcion Pamela
+def minimo(lista):
+    valorMin = min(lista)
+    print("El valor mínimo cargado en la lista es: " + str(valorMin) + "\n")
 
 
 
